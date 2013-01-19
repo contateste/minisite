@@ -3,9 +3,17 @@
 	padding: 0;
 }
 
+header a{
+	border:1px solid #333;
+}
+
 header .logo{
 	position: absolute;
 	left:0;
 	right:0;
 	margin:50% auto;
+}
+
+header a:hover{
+	border:1px solid #999;
 }
